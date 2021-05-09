@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CVPR论文数据可视化</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <!-- 头部 -->
+    <header>
+      <div class="author">作者：尹嘉辉</div>
+      <h1>CVPR论文数据可视化</h1>
+      <div class="show-time" id="show-time"></div>
+      <script>
+        setInterval("document.getElementById('show-time').innerHTML=new Date().toLocaleString();", 1000);
+      </script>
+    </header>
+
+    <!-- 页面主体 -->
+    <section class="mainbox">
+      <!-- 左侧盒子 -->
+      <div class="column">
+        <div class="panel p1">
+          <h2>高产作者</h2>
+          <!-- 图表放置盒子 -->
+          <div class="chart"></div>
+          <!-- 伪元素绘制盒子下边角 -->
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p4">
+          <h2>标题长度分布
+          </h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p7">
+          <h2>单词词云</h2>
+
+          <img src="images/wordcloud.jpg" width="90%" style="margin: auto;display: block">
+          <div class="panel-footer"></div>
+        </div>
+      </div>
+      <!-- 中间盒子 -->
+      <div class="column">
+        <div class="panel p2">
+          <h2>高产作者</h2>
+          <!-- 图表放置盒子 -->
+          <div class="chart"></div>
+          <!-- 伪元素绘制盒子下边角 -->
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p5">
+          <h2>高频词汇趋势
+
+          </h2>
+
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p8">
+          <h2>作者词云</h2>
+          <img src="images/wordcloud1.jpg" width="90%" style="margin: auto;display: block">
+          <div class="panel-footer"></div>
+        </div>
+      </div>
+      <!-- 右侧盒子 -->
+      <div class="column">
+        <div class="panel p3">
+          <h2>作者数量</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p6">
+          <h2>各年高频词汇
+
+          </h2>
+          <h2>
+            <a class="a-active" href="javascript:;">2013</a>
+            <a href="javascript:;">2014</a>
+            <a href="javascript:;">2015</a>
+            <a href="javascript:;">2016</a>
+            <a href="javascript:;">2017</a>
+            <a href="javascript:;">2018</a>
+            <a href="javascript:;">2019</a>
+            <a href="javascript:;">2020</a>
+          </h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel p9">
+          <h2>文章数量</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/flexible.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.1.0/echarts.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
