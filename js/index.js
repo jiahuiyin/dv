@@ -455,9 +455,9 @@
   })
 })();
 
-// 饼形图2
+
 (function () {
-  // 年份对应数据
+
   var yearData = [{
     year: "2013",
     data: [
@@ -642,7 +642,7 @@
 })();
 
 
-// 模拟飞行路线地图
+
 (function () {
   var myChart = echarts.init(document.querySelector(".p9 .chart"));
   var option = {

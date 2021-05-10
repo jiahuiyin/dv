@@ -25,7 +25,7 @@
 官网地址：<https://www.echartsjs.com/zh/index.html>
 
 ## 项目展示
-- 展示地址：https://jiahuiyin.io/dv/  
+- 展示地址：https://jiahuiyin.github.io/dv/
 
 
 
