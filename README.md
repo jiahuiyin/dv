@@ -1,6 +1,6 @@
 # CVPR论文数据可视化
 - 数据可视化结课作业
-- 展示地址：https://jiahuiyin.github.io/dv/
+- 展示地址：https://dv.yinjiahui.cn/
 - 作者：尹嘉辉
 - 指导老师：孙琨副教授
 
@@ -25,8 +25,8 @@
 官网地址：<https://www.echartsjs.com/zh/index.html>
 
 ## 项目展示
-- 展示地址：https://jiahuiyin.github.io/dv/
+- 展示地址：https://dv.yinjiahui.cn/
 
 
 
-![demo](https://www.hualigs.cn/image/60980021e9b27.jpg)
+![demo](https://dv.yinjiahui.cn/images/demo.jpg)
